@@ -18,43 +18,43 @@ int main() {
 
     cout << "\n\t***CHANGE***";
     //hundreds
-    cout << "\n100$: " << changeMoney / 100 << " pices";
+    cout << "\n100$: " << changeMoney / 100 << " pieces";
     changeMoney %= 100;
 
     //dozens
     if (changeMoney / 50) {
-        cout << "\n50$: " << changeMoney / 50 << " pices";
+        cout << "\n50$: " << changeMoney / 50 << " pieces";
         changeMoney %= 10;
     }
     else if (changeMoney / 20) {
-        cout << "\n20$: " << changeMoney / 20 << " pices";
+        cout << "\n20$: " << changeMoney / 20 << " pieces";
         changeMoney %= 10;
     }
     else {
-        cout << "\n10$; " << changeMoney / 10 << " pices";
+        cout << "\n10$; " << changeMoney / 10 << " pieces";
         changeMoney %= 10;
     }
 
     //units
     if (changeMoney / 5) {
-        cout << "\n5$: " << changeMoney / 5 << " pices";
+        cout << "\n5$: " << changeMoney / 5 << " pieces";
         changeMoney %= 5;
     }
     else if (changeMoney / 2) {
-        cout << "\n2$: " << changeMoney / 2 << " pices";
+        cout << "\n2$: " << changeMoney / 2 << " pieces";
         changeMoney %= 2;
     }
     else {
-        cout << "\n1$: " << changeMoney << " pices";
+        cout << "\n1$: " << changeMoney << " pieces";
         changeMoney %= 1;
     }
 
     if (changeMoney / 2) {
-        cout << "\n2$: " << changeMoney / 2 << " pices";
+        cout << "\n2$: " << changeMoney / 2 << " pieces";
     }
 
     if (changeMoney / 1) {
-        cout << "\n1$: " << changeMoney << " pices";
+        cout << "\n1$: " << changeMoney << " pieces";
     }
 
     return 0;
